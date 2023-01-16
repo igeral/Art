@@ -117,3 +117,18 @@ div.wpcf7 input[type=file]:disabled {
 .hidetext {
     display: none;
 }
+
+.ws-instagram-header>.ws-footer-social {
+    list-style-type: none;
+    display: inline-flex;
+    gap: 10px;
+}
+
+.ws-instagram-header a {
+    color: black;
+    font-size: 3rem;
+}
+
+.ws-instagram-header a:hover {
+    color: #ccb48e;
+}
