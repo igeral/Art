@@ -110,6 +110,10 @@ div.wpcf7 input[type=file]:disabled {
     list-style-type: none;
 }
 
+.language ul li:hover {
+    cursor: pointer;
+}
+
 .hidetext {
     display: none;
 }
