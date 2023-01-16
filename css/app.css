@@ -109,3 +109,7 @@ div.wpcf7 input[type=file]:disabled {
 .language ul {
     list-style-type: none;
 }
+
+.hidetext {
+    display: none;
+}
