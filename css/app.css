@@ -122,6 +122,7 @@ div.wpcf7 input[type=file]:disabled {
     list-style-type: none;
     display: inline-flex;
     gap: 10px;
+    padding: 0;
 }
 
 .ws-instagram-header a {
