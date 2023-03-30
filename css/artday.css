@@ -794,7 +794,7 @@ h3.ws-heading {
 }
 
 .ws-page-container {
-    padding-top: 70px;
+    padding-top: 70px !important;
     padding-bottom: 70px
 }
 
