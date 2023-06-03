@@ -5873,7 +5873,8 @@ div.pp_woocommerce .pp_gallery ul li a {
   letter-spacing: 1.5px;
 }
 
-.ws-contact-form input.form-control {
+.ws-contact-form input.form-control,
+.ws-contact-form select.form-control {
   font-size: 12px;
   font-weight: 400;
   height: 40px;
@@ -6997,4 +6998,31 @@ span.ws-envato {
   .ws-topbar-message {
     display: none;
   }
+}
+
+.heading-3 {
+  font-family: "Trim Mono", monospace;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  line-height: 1.2rem;
+  margin: 0;
+  padding-bottom: 0.6rem;
+  padding-top: 0.2rem;
+  position: relative;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.heading-3::after {
+  background: currentColor;
+  bottom: 0;
+  content: "";
+  height: 1px;
+  width: 100px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform-origin: left center;
+  transition: transform 1.2s cubic-bezier(0.23, 1, 0.32, 1);
 }
