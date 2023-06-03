@@ -2088,7 +2088,7 @@ ul.ws-footer-payments li {
 
 .ws-header-fourth .navbar .navbar-collapse {
   position: relative;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .ws-header-fourth .navbar-default {
