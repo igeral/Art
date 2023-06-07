@@ -2155,6 +2155,9 @@ ul.ws-footer-payments li {
   .ws-header-fourth .navbar-brand {
     padding: 20px 0;
   }
+  .navbar-collapse.collapse.in {
+    text-align: center;
+  }
 }
 
 .ws-container-fluid {
