@@ -7034,3 +7034,8 @@ span.ws-envato {
   transform-origin: left center;
   transition: transform 1.2s cubic-bezier(0.23, 1, 0.32, 1);
 }
+@media screen and (min-width: 1024px) {
+  .navbar-collapse.collapse.in {
+    margin: 0 15%;
+  }
+}
