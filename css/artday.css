@@ -2151,6 +2151,11 @@ ul.ws-footer-payments li {
 .ws-header-fourth .navbar-brand {
   padding: 10px 0;
 }
+@media screen and (max-width: 1024px) {
+  .ws-header-fourth .navbar-brand {
+    padding: 20px 0;
+  }
+}
 
 .ws-container-fluid {
   padding-right: 50px;
