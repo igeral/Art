@@ -6843,7 +6843,7 @@ h3.ws-item-title {
   .ws-header-fourth .navbar-toggle {
     position: absolute;
     top: 28px;
-    left: 50px;
+    left: 80%;
     border: none;
     margin: 0;
     padding: 0;
