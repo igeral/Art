@@ -7047,7 +7047,7 @@ span.ws-envato {
 }
 
 .ws-journal-item {
-  flex: 0 0 100%;
+  flex: 1 0 100%;
   transition: transform 0.5s ease-in-out;
   /* opacity: 0; */
   width: 100%;

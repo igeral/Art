@@ -1,7 +1,6 @@
 const carouselItems = document.querySelectorAll(".ws-journal-item");
 const prevButton = document.querySelector(".carousel-prev");
 const nextButton = document.querySelector(".carousel-next");
-console.log(carouselItems.length);
 
 // current slide counter
 let curSlide = 0;
@@ -34,10 +33,17 @@ function showNextSlide() {
   }
 
   carouselItems.forEach((slide, indx) => {
-    slide.style.transform = `translateX(${100 * (indx - curSlide - 1)}%)`;
+    if (curSlide % 2 === 0) {
+      slide.style.transform = `translateX(${100 * (indx - curSlide - 2)}%)`;
+    } else {
+      slide.style.transform = `translateX(${100 * (indx - curSlide - 1)}%)`;
+    }
   });
   updateButtonVisibility();
 }
+
+prevButton.addEventListener("click", showPrevSlide);
+nextButton.addEventListener("click", showNextSlide);
 
 function updateButtonVisibility() {
   if (curSlide === 0) {
