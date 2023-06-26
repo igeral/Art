@@ -2754,7 +2754,7 @@ span.minicart-content-remove {
 
 .ws-parallax-header {
   position: relative;
-  min-height: 400px;
+  min-height: 500px;
   background: 0 0;
 }
 
@@ -7038,4 +7038,57 @@ span.ws-envato {
   .collapse.navbar-collapse {
     margin: 0 15%;
   }
+}
+
+/* recent and early works scrolling */
+.ws-journal-carousel {
+  display: flex;
+  overflow: hidden;
+}
+
+.ws-journal-item {
+  flex: 0 0 100%;
+  transition: transform 0.5s ease-in-out;
+  /* opacity: 0; */
+  width: 100%;
+}
+/* .ws-journal-item.active {
+  opacity: 1;
+} */
+.carousel-next,
+.carousel-prev {
+  position: absolute;
+  top: 100%;
+  transform: translateY(-50%);
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  text-align: center;
+  background-color: #353535;
+}
+.carousel-prev {
+  left: 10px;
+  padding: 10px 20px 10px 15px;
+  display: none;
+}
+
+.carousel-next {
+  right: 10px;
+  padding: 10px 15px 10px 20px;
+}
+.carousel-next:before,
+.carousel-prev:before {
+  color: #fff;
+  display: block;
+  font: normal normal normal 32px/1 FontAwesome;
+}
+.carousel-next:before {
+  content: "\f105";
+}
+.carousel-prev:before {
+  content: "\f104";
+}
+.carousel-next:hover,
+.carousel-prev:hover {
+  cursor: pointer;
 }
