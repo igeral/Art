@@ -26,11 +26,11 @@ function showPrevSlide() {
 }
 
 function showNextSlide() {
-  // if (curSlide === maxSlide) {
-  //   curSlide = 0;
-  // } else {
-  curSlide++;
-  // }
+  if (curSlide === maxSlide) {
+    curSlide = 0;
+  } else {
+    curSlide++;
+  }
 
   carouselItems.forEach((slide, indx) => {
     slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
