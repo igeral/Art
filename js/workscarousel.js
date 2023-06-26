@@ -26,18 +26,14 @@ function showPrevSlide() {
 }
 
 function showNextSlide() {
-  if (curSlide === maxSlide) {
-    curSlide = 0;
-  } else {
-    curSlide++;
-  }
+  // if (curSlide === maxSlide) {
+  //   curSlide = 0;
+  // } else {
+  curSlide++;
+  // }
 
   carouselItems.forEach((slide, indx) => {
-    if (curSlide % 2 === 0) {
-      slide.style.transform = `translateX(${100 * (indx - curSlide - 2)}%)`;
-    } else {
-      slide.style.transform = `translateX(${100 * (indx - curSlide - 1)}%)`;
-    }
+    slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
   });
   updateButtonVisibility();
 }
