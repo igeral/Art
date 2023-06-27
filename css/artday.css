@@ -1754,9 +1754,14 @@ ul.ws-journal-nav {
   list-style: none;
   padding-left: 0;
 }
-
+@media screen and (min-width: 1024px) {
+  .ws-footer ul {
+    display: flex;
+    gap: 10px;
+  }
+}
 .ws-footer li {
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -2149,7 +2154,7 @@ ul.ws-footer-payments li {
 }
 
 .ws-header-fourth .navbar-brand {
-  padding: 10px 0;
+  padding: 2px 0;
 }
 @media screen and (max-width: 1024px) {
   .ws-header-fourth .navbar-brand {
