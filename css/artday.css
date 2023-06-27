@@ -2158,7 +2158,7 @@ ul.ws-footer-payments li {
 }
 @media screen and (max-width: 1024px) {
   .ws-header-fourth .navbar-brand {
-    padding: 20px 0;
+    padding: 12px 0;
   }
   .navbar-collapse.collapse.in {
     text-align: center;
