@@ -33,11 +33,11 @@ function showNextSlide() {
   }
 
   carouselItems.forEach((slide, indx) => {
-    if (curSlide % 2 === 0) {
-      slide.style.transform = `translateX(${100 * (indx - curSlide - 2)}%)`;
-    } else {
-      slide.style.transform = `translateX(${100 * (indx - curSlide - 1)}%)`;
-    }
+    // if (curSlide % 2 === 0) {
+    //   slide.style.transform = `translateX(${100 * (indx - curSlide - 2)}%)`;
+    // } else {
+    slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
+    // }
   });
   // updateButtonVisibility();
 }

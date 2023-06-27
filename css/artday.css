@@ -7042,19 +7042,34 @@ span.ws-envato {
 
 /* recent and early works scrolling */
 .ws-journal-carousel {
-  display: flex;
+  /* display: flex;
+  overflow: hidden; */
+  width: 100%;
+  /* max-width: 800px; */
+  height: 1600px;
+  position: relative;
   overflow: hidden;
 }
 
 .ws-journal-item {
-  flex: 0 0 100%;
+  /* flex: 0 0 100%;
   transition: transform 0.5s ease-in-out;
-  /* opacity: 0; */
+  opacity: 0;
+  width: 100%; */
   width: 100%;
+  /* max-width: 800px; */
+  height: 350px;
+  position: absolute;
+  transition: all 0.5s;
 }
 /* .ws-journal-item.active {
   opacity: 1;
 } */
+.ws-journal-item div {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .carousel-next,
 .carousel-prev {
   position: absolute;
