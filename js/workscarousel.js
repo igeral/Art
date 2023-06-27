@@ -22,7 +22,7 @@ function showPrevSlide() {
   carouselItems.forEach((slide, indx) => {
     slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
   });
-  // updateButtonVisibility();
+  updateButtonVisibility();
 }
 
 function showNextSlide() {
@@ -39,7 +39,7 @@ function showNextSlide() {
     slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
     // }
   });
-  // updateButtonVisibility();
+  updateButtonVisibility();
 }
 
 prevButton.addEventListener("click", showPrevSlide);
