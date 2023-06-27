@@ -7136,3 +7136,10 @@ span.ws-envato {
     height: 1525px;
   }
 }
+.ws-footer-col,
+.ws-footer-bar > .container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
