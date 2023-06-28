@@ -1,5 +1,5 @@
 body {
-    font-family: PT Serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .ws-contact-form,
@@ -158,7 +158,7 @@ h3.ws-item-title,
 .ws-mycart-total a.shipping-calculator-button,
 .ws-mycart-total table tr.shipping button,
 .ws-header-fourth a {
-    font-family: Montserrat;
+    font-family: 'Playfair Display', serif;
 }
 
 .ws-journal-single-tags ul li.ws-journal-category-tag a,

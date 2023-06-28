@@ -102,13 +102,6 @@
   />
   <link
 	rel="stylesheet"
-	id="artday-fonts-css"
-	href="https://fonts.googleapis.com/css?family=PT+Serif%7CMontserrat&#038;subset=latin%2Clatin-ext"
-	type="text/css"
-	media="all"
-  />
-  <link
-	rel="stylesheet"
 	id="js_composer_front-css"
 	href="css/composerfonts.css"
 	type="text/css"
@@ -185,13 +178,9 @@
 			margin: 0 !important;
 		}
 	</style>
-	<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress." />
-	<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://wossthemes.com/artday/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="https://wossthemes.com/artday/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]-->
-	<meta name="generator"
-		content="Powered by Slider Revolution 5.2.6 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-	<link
-		href="https://fonts.googleapis.com/css?family=Montserrat:400,700|PT+Serif:400,400italic,700,700italic&amp;subset=latin,cyrillic"
-		rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
 	<style>
 		#ulp-JLrPLYmja3RiPH7Y .ulp-submit,
 		#ulp-JLrPLYmja3RiPH7Y .ulp-submit:visited {
@@ -413,12 +402,12 @@
 		<nav class="navbar navbar-default">
 		  <div class="container-fluid ws-container-fluid">
 			<div class="col-sm-2">
-			  <a class="navbar-brand" href="/Art">
+			  <a class="navbar-brand" href="/">
 				<img src="./images/logo.png" alt="Damson" />
 			  </a>
 			</div>
   
-			<div class="col-sm-10">
+			<div class="col-sm-9">
 			  <div
 				class="collapse navbar-collapse"
 				id="bs-example-navbar-collapse-1"
@@ -433,7 +422,7 @@
 						data-hover="dropdown"
 						data-animations="fadeIn"
 						title="Home"
-						href="/Art"
+						href="/"
 						aria-haspopup="true"
 						>Home
 						<!-- <span class="caret"></span> -->
@@ -455,14 +444,14 @@
 					  id="menu-item-475"
 					  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-475 dropdown"
 					>
-					<a
-					data-hover="dropdown"
-					data-animations="fadeIn"
-					title="Shop"
-					href="shop.html"
-					aria-haspopup="true"
-					>Shop</a
-				  >
+					  <a
+						data-hover="dropdown"
+						data-animations="fadeIn"
+						title="Shop"
+						href="shop.html"
+						aria-haspopup="true"
+						>Shop</a
+					  >
 					</li>
 					<li
 					  id="menu-item-542"
@@ -477,7 +466,7 @@
 					  >
 					</li>
 				  </ul>
-				  <div class="col-sm-4 col-md-4">
+				  <div class="col-sm-3 col-md-3">
 					<div class="language">
 					  <ul id="menu-nav-style-2" class="nav navbar-nav">
 						<li><a class="IT">IT</a></li>
@@ -486,6 +475,31 @@
 					</div>
 				  </div>
 				</div>
+			  </div>
+			</div>
+			<div class="col-sm-1 di-none">
+			  <div class="ws-instagram-header">
+				<ul class="ws-footer-social">
+				  <li>
+					<a
+					  href="https://m.facebook.com/Damson.Artist?ref=ig_profile_ac&wtsid=rdr_05rAWYCHHluV3G7Xy&_rdr"
+					  target="_blank"
+					  ><i class="fa fa-facebook fa-md"></i
+					></a>
+				  </li>
+				  <li>
+					<a href="https://twitter.com/#" target="_blank"
+					  ><i class="fa fa-twitter fa-md"></i
+					></a>
+				  </li>
+				  <li>
+					<a
+					  href="https://www.instagram.com/melissa_damson/"
+					  target="_blank"
+					  ><i class="fa fa-instagram fa-md"></i
+					></a>
+				  </li>
+				</ul>
 			  </div>
 			</div>
 			<div class="navbar-header">
@@ -505,17 +519,20 @@
 		  </div>
 		</nav>
 	  </header>
-	<div class="ws-parallax-header parallax-window" data-parallax="scroll" style="background: url('./images/FIRST\ IMAGE/RECENT WORK.jpg');"
-	data-image-src="images/FIRST\ IMAGE/RECENT WORK.jpg">
-		<div class="ws-overlay">
-			<div class="ws-parallax-caption">
-				<div class="ws-parallax-holder">
-					<h1>Recent Works</h1>
-				</div>
-			</div>
-		</div>
-	</div>
-
+	  <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel" style="max-height: 600px;"
+    >
+	<div class="carousel-inner" style="height: 600px">
+        <div class="carousel-item active" style="max-height: 600px">
+          <img src="./images/FIRST IMAGE/RECENT WORK.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-md-block">
+            <h1>Recent Works</h1>
+          </div>
+        </div>
+      </div>
+    </div>
 	<div class="container-fluid ws-page-container">
 		<div class="row">
 			<div class="ws-journal-container ws-journal-carousel">

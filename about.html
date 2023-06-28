@@ -36,6 +36,12 @@
     <link rel="dns-prefetch" href="//s.w.org" />
     <link
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
       id="contact-form-7-css"
       href="css/app.css"
       type="text/css"
@@ -232,10 +238,11 @@
         media="screen"
     /><![endif]-->
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="//fonts.googleapis.com/css?family=Montserrat:400,700|PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap"
       rel="stylesheet"
-      type="text/css"
     />
     <style>
       #ulp-JLrPLYmja3RiPH7Y .ulp-submit,
@@ -285,7 +292,7 @@
       #ulp-layer-210,
       #ulp-layer-210 * {
         text-align: left;
-        font-family: "arial", arial;
+        font-family: "Playfair Display", serif;
         font-weight: 400;
         color: #000000;
         font-size: 14px;
@@ -457,12 +464,12 @@
       <nav class="navbar navbar-default">
         <div class="container-fluid ws-container-fluid">
           <div class="col-sm-2">
-            <a class="navbar-brand" href="/Art">
+            <a class="navbar-brand" href="/">
               <img src="./images/logo.png" alt="Damson" />
             </a>
           </div>
 
-          <div class="col-sm-10">
+          <div class="col-sm-9">
             <div
               class="collapse navbar-collapse"
               id="bs-example-navbar-collapse-1"
@@ -477,7 +484,7 @@
                       data-hover="dropdown"
                       data-animations="fadeIn"
                       title="Home"
-                      href="/Art"
+                      href="/"
                       aria-haspopup="true"
                       >Home
                       <!-- <span class="caret"></span> -->
@@ -521,7 +528,7 @@
                     >
                   </li>
                 </ul>
-                <div class="col-sm-4 col-md-4">
+                <div class="col-sm-3 col-md-3">
                   <div class="language">
                     <ul id="menu-nav-style-2" class="nav navbar-nav">
                       <li><a class="IT">IT</a></li>
@@ -530,6 +537,31 @@
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="col-sm-1 di-none">
+            <div class="ws-instagram-header">
+              <ul class="ws-footer-social">
+                <li>
+                  <a
+                    href="https://m.facebook.com/Damson.Artist?ref=ig_profile_ac&wtsid=rdr_05rAWYCHHluV3G7Xy&_rdr"
+                    target="_blank"
+                    ><i class="fa fa-facebook fa-md"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/#" target="_blank"
+                    ><i class="fa fa-twitter fa-md"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/melissa_damson/"
+                    target="_blank"
+                    ><i class="fa fa-instagram fa-md"></i
+                  ></a>
+                </li>
+              </ul>
             </div>
           </div>
           <div class="navbar-header">
@@ -549,15 +581,16 @@
         </div>
       </nav>
     </header>
-
     <div
-      class="ws-parallax-header parallax-window"
-      data-parallax="scroll"
-      data-image-src="images/story.jpg"
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+      style="max-height: 600px"
     >
-      <div class="ws-overlay">
-        <div class="ws-parallax-caption">
-          <div class="ws-parallax-holder">
+      <div class="carousel-inner" style="height: 600px">
+        <div class="carousel-item active" style="max-height: 600px">
+          <img src="./images/story.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-md-block">
             <h1>About Me</h1>
           </div>
         </div>
@@ -874,6 +907,11 @@
       }
     </style>
     <script src="js/language.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <script type="d483702057a11f32b240db54-text/javascript">
       (function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];

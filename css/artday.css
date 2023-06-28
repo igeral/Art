@@ -99,7 +99,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: 'Playfair Display', serif;
   font-size: 1em;
 }
 
@@ -225,7 +225,7 @@ address {
 
 pre {
   background: #eee;
-  font-family: "courier 10 pitch", Courier, monospace;
+  font-family: 'Playfair Display', serif;
   font-size: 15px;
   font-size: 0.9375rem;
   line-height: 1.6;
@@ -239,7 +239,7 @@ code,
 kbd,
 tt,
 var {
-  font-family: Monaco, Consolas, andale mono, dejavu sans mono, monospace;
+  font-family: 'Playfair Display', serif;
   font-size: 15px;
   font-size: 0.9375rem;
 }
@@ -729,7 +729,7 @@ object {
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Playfair Display', serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
@@ -6883,8 +6883,8 @@ h3.ws-item-title {
 
   .ws-header-fourth a.navbar-brand {
     position: absolute;
-    margin-top: 20px;
-    top: 50%;
+    margin-top: 9px;
+    /* top: 32px; */
     left: 50%;
     -webkit-transform: translateY(-50%) translateX(-50%);
     -ms-transform: translateY(-50%) translateX(-50%);
@@ -7014,7 +7014,7 @@ span.ws-envato {
 }
 
 .heading-3 {
-  font-family: "Trim Mono", monospace;
+  font-family: 'Playfair Display', serif;
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0.1em;
@@ -7078,13 +7078,18 @@ span.ws-envato {
 .carousel-next,
 .carousel-prev {
   position: absolute;
-  top: 100%;
   transform: translateY(-50%);
   height: 50px;
   border: none;
   font-size: 20px;
   text-align: center;
   background-color: #353535;
+}
+@media screen and (min-width: 1024px) {
+  .carousel-prev,
+  .carousel-next {
+    top: 100%;
+  }
 }
 .carousel-prev {
   left: 10px;
@@ -7128,9 +7133,9 @@ span.ws-envato {
   .carousel-caption h5 {
     font-size: 56px;
   }
-  .carousel-caption {
+  /* .carousel-caption {
     top: 50%;
-  }
+  } */
   .ws-journal-carousel {
     width: 100%;
     height: 1525px;
@@ -7145,4 +7150,25 @@ span.ws-envato {
 }
 .ws-footer-separator {
   margin-left: 40%;
+}
+.di-none {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .di-none {
+    display: block;
+  }
+}
+.carousel-caption h1:before,
+.carousel-caption h1:after {
+  content: "";
+  vertical-align: top;
+  display: inline-block;
+  width: 10px;
+  height: 21px;
+  border-bottom: 2px solid #fff;
+  margin: 0 2% 0 -55%;
+}
+.carousel-caption h1:after {
+  margin: 0 -55% 0 2%;
 }
