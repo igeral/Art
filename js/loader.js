@@ -16,7 +16,7 @@ window.addEventListener("load", function () {
   // Hide the loader after 3 seconds
   setTimeout(function () {
     document.querySelector(".body").style.display = "block";
-    document.querySelector("body").style.overflow = "scroll";
+    document.querySelector("body").style.overflowY = "scroll";
     document.querySelector(".body").style.opacity = "1";
-  }, 3000);
+  }, 2000);
 });

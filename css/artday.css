@@ -7155,16 +7155,6 @@ span.ws-envato {
   .dis-none {
     display: none;
   }
-  .carousel-next,
-  .carousel-prev {
-    bottom: -2%;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .carousel-next,
-  .carousel-prev {
-    bottom: -42%;
-  }
 }
 @media screen and (max-width: 1024px) {
   .ws-instagram-header > .ws-footer-social {
